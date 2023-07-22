@@ -256,6 +256,7 @@ const char *piModelNames [16] =
   "Banana Pi M2+[H5]",	// 31
   "Banana Pi M2 Ultra[V40]",	// 32
   "Banana Pi M2 Zero[H2+/H3]",	// 33
+  "Banana Pi R2[MT7623N]",	// 34
   NULL,
 #endif
 } ;
