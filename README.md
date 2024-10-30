@@ -13,3 +13,20 @@ Description:
 This is a modified WiringPi - Libarys for Banana Pi's !"
 
 I DO NOT OWN ANY RIGHTS !!
+
+
+To compile your applications with wiringPi use:
+
+Example:
+```sh
+
+gcc -o out_app in_file.c -lwiringPi
+```
+
+to your compile line(s) To use the Gertboard, MaxDetect, etc.
+code (the devLib), you need to also add:
+
+```sh
+gcc -o out_app in_file.c -lwiringPiDev
+```
+to your compile line(s)."
